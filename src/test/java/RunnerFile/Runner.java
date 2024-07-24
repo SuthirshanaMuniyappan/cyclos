@@ -6,7 +6,11 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="C:\\kalai\\src\\test\\resources\\cycloslogin.feature", glue="CyclosLogin")
+@CucumberOptions(
+		features="src/test/resources/Features/", 
+		glue={"com.Stepdefinition"},
+		plugin={"pretty", "html:target/cucumber-Report.html", "json:target/report.json"}
+		)
 public class Runner {
 
 }
