@@ -11,7 +11,7 @@
 <version>3.0.0-M4</version>
 <configuration>
 <includes>
-<include>**/Runner*.java</include>
+<include>C:\Users\TVDI-00\git\repository4\mavenProject\src\test\java\runner\TestRunnerClass.java</include>
 </includes>
 <testFailureIgnore>true</testFailureIgnore>
 </configuration>
